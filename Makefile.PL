@@ -7,7 +7,6 @@ requires 'Mouse';
 requires 'Authen::Simple::DBI';
 
 tests 't/*.t';
-author_tests 'xt';
 
 test_requires 'Test::More';
 WriteAll;
