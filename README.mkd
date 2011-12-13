@@ -1,0 +1,37 @@
+# NAME
+
+Cirque::Plugin::Authentication::DBI - Authentication-backend for Cirque
+
+# SYNOPSIS
+
+    $ ln -s cirque-plugin-authentication-dbi/plugins/authentication-dbi path/to/cirque/plugins/
+    $ path/to/cirque/bin/cirqued
+
+# DESCRIPTION
+
+Cirque::Plugin::Authentication::DBI is an authentication-backend for
+Cirque.
+
+# Configuration
+
+See plugins/authentication-dbi/etc/config.pl.
+
+# Database Schema
+
+See plugins/authentication-dbi/misc/cirque_auth.sql.
+
+# Compatible to password-hash
+
+This plugin uses "Authen::Simple" for authentication.
+
+"Authen::Simple" has compatible to password-hashing.
+
+# SEE ALSO
+
+plugins/authentication-dbi/etc/config.pl
+
+# LICENSE
+
+This library is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
