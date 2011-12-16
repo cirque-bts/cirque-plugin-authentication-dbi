@@ -19,9 +19,9 @@
 # DBI認証に用いるDBIサーバの指定を行います。
 # Authen::Simpleで使用できるパラメータと同じものを使うことができます。
 #
-    'API::Authentication::DBI' => {
-        dsn => "dbi:mysql:cirque_auth",
-        username => "root",
-    },
+#    'API::Authentication::DBI' => {
+#        dsn => "dbi:mysql:cirque_auth",
+#        username => "root",
+#    },
 
 };
